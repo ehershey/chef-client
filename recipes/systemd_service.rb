@@ -13,7 +13,7 @@ dist_dir, conf_dir, env_file = value_for_platform_family(
   ['fedora'] => %w(fedora sysconfig chef-client),
   ['rhel'] => %w(redhat sysconfig chef-client),
   ['suse'] => %w(redhat sysconfig chef-client),
-  ['debian'] => %w(debian default chef-client),
+  ['debian', 'arch'] => %w(debian default chef-client),
   ['clearlinux'] => %w(clearlinux chef chef-client)
 )
 
